@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0_1
-Release:          1
+Release:          2
 Summary:          Collection of functions for matrix differential calculus
 Group:            Sciences/Mathematics
 License:          GPL (>=2)
