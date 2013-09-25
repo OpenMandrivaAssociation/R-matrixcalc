@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0_1
-Release:          2
+Version:          1.0.3
+Release:          1
 Summary:          Collection of functions for matrix differential calculus
 Group:            Sciences/Mathematics
 License:          GPL (>=2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/matrixcalc_1.0-3.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 BuildRequires:    R-devel
@@ -55,4 +55,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 776239
 - Import R-matrixcalc
 - Import R-matrixcalc
+
 
